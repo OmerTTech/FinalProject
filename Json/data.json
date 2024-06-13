@@ -2,19 +2,19 @@
   "products": [
     {
       "id": 1,
+      "name": "Blueberry Muffin",
+      "description": "A delicious muffin filled with fresh blueberries.",
+      "price": 2.49,
+      "category": "Muffin",
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/1.png"
+    },
+    {
+      "id": 2,
       "name": "Vanilla Cupcake",
       "description": "A classic vanilla cupcake with vanilla frosting.",
       "price": 2.99,
       "category": "Cupcake",
-      "image": "https://example.com/vanilla-cupcake.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Chocolate Cupcake",
-      "description": "A rich chocolate cupcake with chocolate frosting.",
-      "price": 3.49,
-      "category": "Cupcake",
-      "image": "https://example.com/chocolate-cupcake.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/2.png"
     },
     {
       "id": 3,
@@ -22,15 +22,15 @@
       "description": "A moist red velvet cupcake with cream cheese frosting.",
       "price": 3.99,
       "category": "Cupcake",
-      "image": "https://example.com/red-velvet-cupcake.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/3.png"
     },
     {
       "id": 4,
-      "name": "Blueberry Muffin",
-      "description": "A delicious muffin filled with fresh blueberries.",
-      "price": 2.49,
-      "category": "Muffin",
-      "image": "https://example.com/blueberry-muffin.jpg"
+      "name": "Chocolate Cupcake",
+      "description": "A rich chocolate cupcake with chocolate frosting.",
+      "price": 3.49,
+      "category": "Cupcake",
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/4.png"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "description": "A classic chocolate chip cookie, crispy on the outside and chewy on the inside.",
       "price": 1.99,
       "category": "Cookie",
-      "image": "https://example.com/chocolate-chip-cookie.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/9.png"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "description": "A tangy lemon tart with a buttery crust.",
       "price": 4.99,
       "category": "Tart",
-      "image": "https://example.com/lemon-tart.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "description": "A classic pecan pie with a rich, nutty flavor.",
       "price": 5.49,
       "category": "Pie",
-      "image": "https://example.com/pecan-pie.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "description": "A moist carrot cake with cream cheese frosting and a hint of cinnamon.",
       "price": 4.49,
       "category": "Cake",
-      "image": "https://example.com/carrot-cake.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "description": "A decadent chocolate brownie, rich and fudgy.",
       "price": 2.99,
       "category": "Brownie",
-      "image": "https://example.com/chocolate-brownie.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "description": "A classic apple pie with a flaky crust and a cinnamon-spiced apple filling.",
       "price": 4.99,
       "category": "Pie",
-      "image": "https://example.com/apple-pie.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "description": "A light and fluffy shortcake topped with fresh strawberries and whipped cream.",
       "price": 3.99,
       "category": "Cake",
-      "image": "https://example.com/strawberry-shortcake.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "description": "A creamy cheesecake with a blueberry swirl, topped with fresh blueberries.",
       "price": 5.99,
       "category": "Cheesecake",
-      "image": "https://example.com/blueberry-cheesecake.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "description": "A warm and gooey cinnamon roll, topped with icing.",
       "price": 2.49,
       "category": "Pastry",
-      "image": "https://example.com/cinnamon-roll.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "description": "A flaky pastry filled with raspberry jam and topped with icing.",
       "price": 2.99,
       "category": "Pastry",
-      "image": "https://example.com/raspberry-danish.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@
       "description": "A classic French pastry filled with chocolate cream and topped with chocolate icing.",
       "price": 3.49,
       "category": "Pastry",
-      "image": "https://example.com/chocolate-eclair.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 16,
@@ -126,7 +126,7 @@
       "description": "A seasonal favorite, pumpkin pie with a flaky crust and a hint of spices.",
       "price": 4.49,
       "category": "Pie",
-      "image": "https://example.com/pumpkin-pie.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 17,
@@ -134,7 +134,7 @@
       "description": "A tangy lemon filling topped with fluffy meringue, baked to perfection.",
       "price": 4.99,
       "category": "Pie",
-      "image": "https://example.com/lemon-meringue-pie.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 18,
@@ -142,7 +142,7 @@
       "description": "A moist and flavorful banana bread, perfect for breakfast or a snack.",
       "price": 3.49,
       "category": "Bread",
-      "image": "https://example.com/banana-bread.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 19,
@@ -150,7 +150,7 @@
       "description": "A croissant filled with almond paste and topped with sliced almonds.",
       "price": 3.99,
       "category": "Croissant",
-      "image": "https://example.com/almond-croissant.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     },
     {
       "id": 20,
@@ -158,21 +158,24 @@
       "description": "A sticky and sweet bun filled with pecans and caramel.",
       "price": 3.49,
       "category": "Pastry",
-      "image": "https://example.com/pecan-sticky-bun.jpg"
+      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
     }
   ],
+  
   "users": [
       {
         "id": 1,
-        "username": "john_doe",
-        "email": "john.doe@example.com",
-        "password": "hashed_password_here"
+        "username": "Admin",
+        "email": "Admin@gmail.com",
+        "password": "Admin123",
+        "token": "fulladm1n"
       },
       {
         "id": 2,
         "username": "jane_smith",
-        "email": "jane.smith@example.com",
-        "password": "hashed_password_here"
+        "email": "jane.smith@gmail.com",
+        "password": "jane123",
+        "token": "QpwL5tken"
       }
     ]
 }
