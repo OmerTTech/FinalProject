@@ -1,7 +1,178 @@
 {
-  "data": [
+  "products": [
     {
-      "key": "Salam"
+      "id": 1,
+      "name": "Vanilla Cupcake",
+      "description": "A classic vanilla cupcake with vanilla frosting.",
+      "price": 2.99,
+      "category": "Cupcake",
+      "image": "https://example.com/vanilla-cupcake.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate Cupcake",
+      "description": "A rich chocolate cupcake with chocolate frosting.",
+      "price": 3.49,
+      "category": "Cupcake",
+      "image": "https://example.com/chocolate-cupcake.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Red Velvet Cupcake",
+      "description": "A moist red velvet cupcake with cream cheese frosting.",
+      "price": 3.99,
+      "category": "Cupcake",
+      "image": "https://example.com/red-velvet-cupcake.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Blueberry Muffin",
+      "description": "A delicious muffin filled with fresh blueberries.",
+      "price": 2.49,
+      "category": "Muffin",
+      "image": "https://example.com/blueberry-muffin.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Chip Cookie",
+      "description": "A classic chocolate chip cookie, crispy on the outside and chewy on the inside.",
+      "price": 1.99,
+      "category": "Cookie",
+      "image": "https://example.com/chocolate-chip-cookie.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Lemon Tart",
+      "description": "A tangy lemon tart with a buttery crust.",
+      "price": 4.99,
+      "category": "Tart",
+      "image": "https://example.com/lemon-tart.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pecan Pie",
+      "description": "A classic pecan pie with a rich, nutty flavor.",
+      "price": 5.49,
+      "category": "Pie",
+      "image": "https://example.com/pecan-pie.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Carrot Cake",
+      "description": "A moist carrot cake with cream cheese frosting and a hint of cinnamon.",
+      "price": 4.49,
+      "category": "Cake",
+      "image": "https://example.com/carrot-cake.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Chocolate Brownie",
+      "description": "A decadent chocolate brownie, rich and fudgy.",
+      "price": 2.99,
+      "category": "Brownie",
+      "image": "https://example.com/chocolate-brownie.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Apple Pie",
+      "description": "A classic apple pie with a flaky crust and a cinnamon-spiced apple filling.",
+      "price": 4.99,
+      "category": "Pie",
+      "image": "https://example.com/apple-pie.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Strawberry Shortcake",
+      "description": "A light and fluffy shortcake topped with fresh strawberries and whipped cream.",
+      "price": 3.99,
+      "category": "Cake",
+      "image": "https://example.com/strawberry-shortcake.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Blueberry Cheesecake",
+      "description": "A creamy cheesecake with a blueberry swirl, topped with fresh blueberries.",
+      "price": 5.99,
+      "category": "Cheesecake",
+      "image": "https://example.com/blueberry-cheesecake.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Cinnamon Roll",
+      "description": "A warm and gooey cinnamon roll, topped with icing.",
+      "price": 2.49,
+      "category": "Pastry",
+      "image": "https://example.com/cinnamon-roll.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Raspberry Danish",
+      "description": "A flaky pastry filled with raspberry jam and topped with icing.",
+      "price": 2.99,
+      "category": "Pastry",
+      "image": "https://example.com/raspberry-danish.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Chocolate Eclair",
+      "description": "A classic French pastry filled with chocolate cream and topped with chocolate icing.",
+      "price": 3.49,
+      "category": "Pastry",
+      "image": "https://example.com/chocolate-eclair.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Pumpkin Pie",
+      "description": "A seasonal favorite, pumpkin pie with a flaky crust and a hint of spices.",
+      "price": 4.49,
+      "category": "Pie",
+      "image": "https://example.com/pumpkin-pie.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Lemon Meringue Pie",
+      "description": "A tangy lemon filling topped with fluffy meringue, baked to perfection.",
+      "price": 4.99,
+      "category": "Pie",
+      "image": "https://example.com/lemon-meringue-pie.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Banana Bread",
+      "description": "A moist and flavorful banana bread, perfect for breakfast or a snack.",
+      "price": 3.49,
+      "category": "Bread",
+      "image": "https://example.com/banana-bread.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Almond Croissant",
+      "description": "A croissant filled with almond paste and topped with sliced almonds.",
+      "price": 3.99,
+      "category": "Croissant",
+      "image": "https://example.com/almond-croissant.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Pecan Sticky Bun",
+      "description": "A sticky and sweet bun filled with pecans and caramel.",
+      "price": 3.49,
+      "category": "Pastry",
+      "image": "https://example.com/pecan-sticky-bun.jpg"
     }
-  ]
+  ],
+  "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "password": "hashed_password_here"
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "password": "hashed_password_here"
+      }
+    ]
 }
