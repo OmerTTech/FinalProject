@@ -2,180 +2,100 @@
   "products": [
     {
       "id": 1,
-      "name": "Blueberry Muffin",
-      "description": "A delicious muffin filled with fresh blueberries.",
-      "price": 2.49,
-      "category": "Muffin",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/1.png"
+      "name": "Cheeseburger",
+      "description": "A classic cheeseburger with a juicy beef patty, melted cheese, lettuce, tomato, and pickles.",
+      "price": 5.99,
+      "category": "Burger",
+      "image": "https://theeburgerdude.com/wp-content/uploads/2023/03/WBC-Blog-01-scaled.jpg"
     },
     {
       "id": 2,
-      "name": "Vanilla Cupcake",
-      "description": "A classic vanilla cupcake with vanilla frosting.",
-      "price": 2.99,
-      "category": "Cupcake",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/2.png"
+      "name": "Chicken Sandwich",
+      "description": "A crispy chicken sandwich with lettuce, tomato, and mayonnaise.",
+      "price": 6.49,
+      "category": "Sandwich",
+      "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2023/10/mccrispy-deluxe.png"
     },
     {
       "id": 3,
-      "name": "Red Velvet Cupcake",
-      "description": "A moist red velvet cupcake with cream cheese frosting.",
-      "price": 3.99,
-      "category": "Cupcake",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/3.png"
+      "name": "Fries",
+      "description": "Golden, crispy French fries.",
+      "price": 2.49,
+      "category": "Side",
+      "image": "https://i.imgur.com/oeborIg.png"
     },
     {
       "id": 4,
-      "name": "Chocolate Cupcake",
-      "description": "A rich chocolate cupcake with chocolate frosting.",
+      "name": "Onion Rings",
+      "description": "Crispy onion rings served with a side of dipping sauce.",
       "price": 3.49,
-      "category": "Cupcake",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/4.png"
+      "category": "Side",
+      "image": "https://images.ctfassets.net/2iottqjdrp5h/1N7PT99sx1qiuILgNyaxyA/73c68881f0940082b6d1b0d228c42056/Product-Image_OnionRings.png"
     },
     {
       "id": 5,
-      "name": "Chocolate Chip Cookie",
-      "description": "A classic chocolate chip cookie, crispy on the outside and chewy on the inside.",
-      "price": 1.99,
-      "category": "Cookie",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/9.png"
+      "name": "Pepperoni Pizza",
+      "description": "A classic pepperoni pizza with a crispy crust and melted cheese.",
+      "price": 8.99,
+      "category": "Pizza",
+      "image": "https://www.cicis.com/media/gvedawsa/pepperoni-pizza.png"
     },
     {
       "id": 6,
-      "name": "Lemon Tart",
-      "description": "A tangy lemon tart with a buttery crust.",
-      "price": 4.99,
-      "category": "Tart",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
+      "name": "Veggie Pizza",
+      "description": "A pizza topped with fresh vegetables including bell peppers, onions, mushrooms, and olives.",
+      "price": 9.49,
+      "category": "Pizza",
+      "image": "https://www.cicis.com/media/chtdvcdp/zesty-veggie-pizza.png"
     },
     {
       "id": 7,
-      "name": "Pecan Pie",
-      "description": "A classic pecan pie with a rich, nutty flavor.",
-      "price": 5.49,
-      "category": "Pie",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
+      "name": "Chicken Nuggets",
+      "description": "Crispy chicken nuggets served with a side of dipping sauce.",
+      "price": 4.99,
+      "category": "Side",
+      "image": "https://www.borenos.com/wp-content/uploads/2018/11/chicken-nuggets-1.png"
     },
     {
       "id": 8,
-      "name": "Carrot Cake",
-      "description": "A moist carrot cake with cream cheese frosting and a hint of cinnamon.",
-      "price": 4.49,
-      "category": "Cake",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
+      "name": "Milkshake",
+      "description": "A creamy milkshake available in chocolate, vanilla, and strawberry flavors.",
+      "price": 3.99,
+      "category": "Drink",
+      "image": "https://cdn.pixabay.com/photo/2024/03/27/05/43/chocolate-8658265_1280.png"
     },
     {
       "id": 9,
-      "name": "Chocolate Brownie",
-      "description": "A decadent chocolate brownie, rich and fudgy.",
-      "price": 2.99,
-      "category": "Brownie",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
+      "name": "Hot Dog",
+      "description": "A classic hot dog with mustard, ketchup, and relish.",
+      "price": 3.99,
+      "category": "Hot Dog",
+      "image": "https://awrestaurants.com/sites/default/files/hotdog_0.png"
     },
     {
       "id": 10,
-      "name": "Apple Pie",
-      "description": "A classic apple pie with a flaky crust and a cinnamon-spiced apple filling.",
-      "price": 4.99,
-      "category": "Pie",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 11,
-      "name": "Strawberry Shortcake",
-      "description": "A light and fluffy shortcake topped with fresh strawberries and whipped cream.",
-      "price": 3.99,
-      "category": "Cake",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 12,
-      "name": "Blueberry Cheesecake",
-      "description": "A creamy cheesecake with a blueberry swirl, topped with fresh blueberries.",
-      "price": 5.99,
-      "category": "Cheesecake",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 13,
-      "name": "Cinnamon Roll",
-      "description": "A warm and gooey cinnamon roll, topped with icing.",
-      "price": 2.49,
-      "category": "Pastry",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 14,
-      "name": "Raspberry Danish",
-      "description": "A flaky pastry filled with raspberry jam and topped with icing.",
-      "price": 2.99,
-      "category": "Pastry",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 15,
-      "name": "Chocolate Eclair",
-      "description": "A classic French pastry filled with chocolate cream and topped with chocolate icing.",
-      "price": 3.49,
-      "category": "Pastry",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 16,
-      "name": "Pumpkin Pie",
-      "description": "A seasonal favorite, pumpkin pie with a flaky crust and a hint of spices.",
-      "price": 4.49,
-      "category": "Pie",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 17,
-      "name": "Lemon Meringue Pie",
-      "description": "A tangy lemon filling topped with fluffy meringue, baked to perfection.",
-      "price": 4.99,
-      "category": "Pie",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 18,
-      "name": "Banana Bread",
-      "description": "A moist and flavorful banana bread, perfect for breakfast or a snack.",
-      "price": 3.49,
-      "category": "Bread",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 19,
-      "name": "Almond Croissant",
-      "description": "A croissant filled with almond paste and topped with sliced almonds.",
-      "price": 3.99,
-      "category": "Croissant",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
-    },
-    {
-      "id": 20,
-      "name": "Pecan Sticky Bun",
-      "description": "A sticky and sweet bun filled with pecans and caramel.",
-      "price": 3.49,
-      "category": "Pastry",
-      "image": "https://codebasket.xyz/template/cafeu/cafeu-html/assets/img/product/.png"
+      "name": "Chicken Strips Salad",
+      "description": "A fresh Caesar salad with romaine lettuce, croutons, and Caesar dressing.",
+      "price": 7.49,
+      "category": "Salad",
+      "image": "https://i.imgur.com/kCS7X2v.png"
     }
   ],
   
   "users": [
-      {
-        "id": 1,
-        "username": "Admin",
-        "email": "Admin@gmail.com",
-        "password": "Admin123",
-        "token": "fulladm1n"
-      },
-      {
-        "id": 2,
-        "username": "jane_smith",
-        "email": "jane.smith@gmail.com",
-        "password": "jane123",
-        "token": "QpwL5tken"
-      }
-    ]
+    {
+      "id": 1,
+      "username": "Admin",
+      "email": "Admin@gmail.com",
+      "password": "Admin123",
+      "token": "fulladm1n"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@gmail.com",
+      "password": "jane123",
+      "token": "QpwL5tken"
+    }
+  ]
 }
