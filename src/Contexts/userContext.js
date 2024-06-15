@@ -19,7 +19,6 @@ export const UserProvider = ({ children }) => {
       value={{
         token,
         setToken,
-        adminToken,
         isLogged,
         setIsLogged,
       }}
