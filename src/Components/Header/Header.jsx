@@ -2,24 +2,21 @@ import React, { useContext, useEffect } from "react";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../Assets/Logo.png";
-import { GrFavorite } from "react-icons/gr";
-import { MdOutlineLogin } from "react-icons/md";
+import { FaUser,FaHeart, FaShoppingBag } from "react-icons/fa";
 
 const Header = () => {
 
   return (
     <header className="position-sticky" style={{ top: "0", zIndex: "100" }}>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary mt-2 py-1">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary p-1">
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand m-0 p-0" to="/">
             <img
               src={Logo}
               alt="Logo"
-              width="60"
-              height="30"
+              width="150px"
               className="d-inline-block align-text-top"
             />
-            <em className="ms-2">Project</em>
           </Link>
           <button
             className="navbar-toggler"
@@ -32,26 +29,52 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav">
+          <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarTogglerDemo02">
+            <ul className="navbar-nav mt-1 ms-3 pt-0">
               <li className="nav-item">
                 <NavLink className="nav-link" aria-current="page" to="/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/users">
-                  Users
+                <NavLink className="nav-link" to="/menu">
+                  Menu
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/about">
+                  About
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/menu">
+                  Menu
+                </NavLink>
+              </li>
+              
+            </ul>
+            <ul className="navbar-nav mt-1 pt-0">
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/favorites">
+                  <button className="border-0 p-1 px-2 btn btn-danger position-relative">
+                    <FaUser className="m-1 my-2"/>
+                  </button>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/favorites">
-                  <div className="d-flex align-items-center justify-content-center pt-2 pb-1">
-                    <GrFavorite
-                      className="position-relative"
-                      style={{ bottom: "2.5px" }}
-                    />
-                  </div>
+                  <button className="border-0 p-1 px-2 btn btn-danger position-relative">
+                    <FaHeart className="m-1 my-2"/>
+                    <span className="navBubble">0</span>
+                  </button>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/favorites">
+                  <button className="border-0 p-1 px-2 btn btn-danger position-relative">
+                    <FaShoppingBag className="m-1 my-2"/>
+                    <span className="navBubble">0</span>
+                  </button>
                 </NavLink>
               </li>
             </ul>

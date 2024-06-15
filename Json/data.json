@@ -88,14 +88,18 @@
       "username": "Admin",
       "email": "Admin@gmail.com",
       "password": "Admin123",
-      "token": "fulladm1n"
+      "token": "fulladm1n",
+      "wishlist": {},
+      "shopcard": {}
     },
     {
       "id": 2,
       "username": "jane_smith",
       "email": "jane.smith@gmail.com",
       "password": "jane123",
-      "token": "QpwL5tken"
+      "token": "QpwL5tken",
+      "wishlist": {},
+      "shopcard": {}
     }
   ]
 }
