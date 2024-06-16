@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../Components/Header/Header';
+import Navmenu from '../Components/NavMenu/Navmenu';
 
 const PublicLayout = ({ children }) => {
     return (
         <div>
-            <Header/>
+            <Navmenu/>
             <main>{children}</main>
         </div>
     );

@@ -1,13 +1,12 @@
-import React, { useContext, useEffect } from "react";
-import "./Header.css";
+import React from "react";
+import "./Navmenu.css";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../Assets/Logo.png";
 import { FaUser,FaHeart, FaShoppingBag } from "react-icons/fa";
 
-const Header = () => {
-
+const Navmenu = () => {
   return (
-    <header className="position-sticky" style={{ top: "0", zIndex: "100" }}>
+    <div className="position-sticky" style={{ top: "0", zIndex: "100" }}>
       <nav className="navbar navbar-expand-lg bg-body-tertiary p-1">
         <div className="container">
           <Link className="navbar-brand m-0 p-0" to="/">
@@ -43,12 +42,12 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
-                  About
+                  About Us
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/menu">
-                  Menu
+                  Contact Us
                 </NavLink>
               </li>
               
@@ -81,8 +80,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 
-export default Header;
+export default Navmenu;
