@@ -7,7 +7,7 @@ import { FaUser,FaHeart, FaShoppingBag } from "react-icons/fa";
 const Navmenu = () => {
   return (
     <div className="position-sticky" style={{ top: "0", zIndex: "100" }}>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary p-1">
+      <nav className={"navbar navbar-expand-lg p-1 bg-transperent"}>
         <div className="container">
           <Link className="navbar-brand m-0 p-0" to="/">
             <img
