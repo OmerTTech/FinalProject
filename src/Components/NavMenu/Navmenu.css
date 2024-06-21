@@ -10,3 +10,24 @@ nav .navBubble{
     font-size: 15px;
     line-height: 1;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    transition: top 1.3s ease;
+    animation: fadeDown 1s ease;
+  }
+  
+  .scrolled {
+    animation: none; /* Animasyonu devre dışı bırak */
+    top: 0;
+  }
+  
+  @keyframes fadeDown {
+    from {
+      top: -75px;
+    }
+    to {
+      top: 0;
+    }
+  }

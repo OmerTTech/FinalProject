@@ -1,13 +1,43 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Navmenu.css";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../Assets/Logo.png";
-import { FaUser,FaHeart, FaShoppingBag } from "react-icons/fa";
+import { FaRegUser,FaRegHeart } from "react-icons/fa";
+import { LuShoppingCart } from "react-icons/lu";
 
 const Navmenu = () => {
+  const navbarRef = useRef(null)
+
+  const handleScroll = () => {
+    if (window.scrollY >= 1) {
+      navbarRef.current.classList.remove('bg-transparent','shadow');
+      navbarRef.current.classList.add('shadow');
+      navbarRef.current.classList.remove('scrolled');
+      document.querySelectorAll(".icon-danger").forEach((icon)=>{
+        icon.classList.remove("btn-light")
+      })
+    } else {
+      navbarRef.current.classList.add('bg-transparent','shadow');
+      navbarRef.current.classList.remove('shadow');
+      navbarRef.current.classList.add('scrolled');
+      document.querySelectorAll(".icon-danger").forEach((icon)=>{
+        icon.classList.add("btn-light")
+      })
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
+  
   return (
     <div className="position-sticky" style={{ top: "0", zIndex: "100" }}>
-      <nav className={"navbar navbar-expand-lg p-1 bg-transperent"}>
+      <nav ref={navbarRef} className={"navbar navbar-expand-lg p-1 bg-white bg-transparent"}>
         <div className="container">
           <Link className="navbar-brand m-0 p-0" to="/">
             <img
@@ -55,23 +85,23 @@ const Navmenu = () => {
             <ul className="navbar-nav mt-1 pt-0">
             <li className="nav-item">
                 <NavLink className="nav-link" to="/favorites">
-                  <button className="border-0 p-1 px-2 btn btn-danger position-relative">
-                    <FaUser className="m-1 my-2"/>
+                  <button className="border-0 p-1 px-2 btn btn-danger icon-danger position-relative shadow">
+                    <FaRegUser className="m-1 my-2"/>
                   </button>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/favorites">
-                  <button className="border-0 p-1 px-2 btn btn-danger position-relative">
-                    <FaHeart className="m-1 my-2"/>
+                  <button className="border-0 p-1 px-2 btn btn-danger icon-danger position-relative shadow">
+                    <FaRegHeart className="m-1 my-2"/>
                     <span className="navBubble">0</span>
                   </button>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/favorites">
-                  <button className="border-0 p-1 px-2 btn btn-danger position-relative">
-                    <FaShoppingBag className="m-1 my-2"/>
+                  <button className="border-0 p-1 px-2 btn btn-danger icon-danger position-relative shadow">
+                    <LuShoppingCart className="m-1 my-2"/>
                     <span className="navBubble">0</span>
                   </button>
                 </NavLink>
