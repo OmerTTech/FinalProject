@@ -12,7 +12,7 @@ nav .navBubble{
 }
 
 .navbar {
-    position: sticky;
+    position: absolute;
     top: 0;
     transition: top 1.3s ease;
     animation: fadeDown 1s ease;

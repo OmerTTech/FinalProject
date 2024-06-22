@@ -35,7 +35,7 @@ const Navmenu = () => {
   }, []);
 
   return (
-    <div className="position-sticky" style={{ top: "0", zIndex: "100" }}>
+    <div className="position-fixed" style={{ top: "0", zIndex: "100", width: "100%"}}>
       <nav
         ref={navbarRef}
         className={"navbar navbar-expand-lg p-0 bg-white bg-transparent"}
