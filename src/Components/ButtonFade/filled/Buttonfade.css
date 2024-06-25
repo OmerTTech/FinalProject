@@ -7,7 +7,7 @@
     max-width: 140px;
     height: 50px;
     border-radius: 0.35rem !important;
-    box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);
+    box-shadow: 0 0.5rem 1rem rgba(170, 0, 0, 0.15);
     overflow: hidden;
    }
    
@@ -35,10 +35,6 @@
    
    .buttonfadefill div:nth-child(2) {
     background-color: #e10d1e;
-   }
-   
-   .buttonfadefill:hover {
-    box-shadow: 0 0.625em 1em 0 rgba(33, 220, 98, 0.35);
    }
    
    .buttonfadefill:hover div {

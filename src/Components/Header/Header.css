@@ -49,6 +49,7 @@ header .desc-font {
 
 header .burgerbg {
   position: absolute;
+  display: block;
   top: 0;
   right: 0;
   padding: 0;
@@ -56,16 +57,79 @@ header .burgerbg {
   height: auto;
 }
 header .banner {
-  position: relative;
-  min-width: 100%;
+  position: absolute;
+  display: block;
+  top: 10%;
+  right: 0;
+  width: 50%;
   height: 100%;
-  float: left;
+}
+@media (max-width: 1000px) {
+  header .banner {
+    top: -10%;
+    width: 50%;
+    height: 100%;
+  } 
+  header .burgerbg {
+    width: 45vw;
+  height: 75vh;
+  }
+}
+@media (max-width: 600px) {
+  header .banner {
+    display: none;
+  } 
+  header .burgerbg {
+    display: none;
+  }
 }
 header .banner .burger {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
   background: url(../../Assets/burger.png) center no-repeat;
   background-size: 100%;
-  width: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  animation: burgerAnim 12s ease both infinite;
+}
+@keyframes burgerAnim {
+  from, 33.2%, 66.4%, to {
+    top: 10px;
+  }
+  16.6% {
+    top: 35px;
+  }
+  49.8% {
+    top: 20px;
+  }
+  83% {
+    top: 35px;
+  } 
+}
+header .banner .burger .crown {
+  position: absolute;
+  top: -6.5%;
+  background: url(../../Assets/crown.png) center no-repeat;
+  background-size: 100%;
+  width: 82.5%;
+  height: 75%;
+}
+header .banner .burger .discount {
+  position: absolute;
+  top: -2.5%;
+  right: 7.5%;
+  background: url(../../Assets/offer.png) center no-repeat;
+  background-size: 100%;
+  width: 25%;
+  height: 25%;
+  animation: discountAnim 4s ease both infinite;
+}
+@keyframes discountAnim {
+  from, to {
+    right: 6.5%;
+  }
+  50% {
+    right: 3%;
+  }
 }

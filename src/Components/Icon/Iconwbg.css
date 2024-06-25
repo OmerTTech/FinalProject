@@ -1,0 +1,18 @@
+.iconbg {
+  background-color: rgba(238, 39, 55, 0.1);
+  color: #e10d1e;
+  border-radius: 5px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: all 0.4s ease-in-out;
+}
+.iconbg:hover {
+    background-color: #e10d1e;
+    color: #fff;
+}
+.iconbg i::before {
+  margin: 0;
+}

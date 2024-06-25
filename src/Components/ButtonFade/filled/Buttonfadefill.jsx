@@ -3,7 +3,7 @@ import "./Buttonfade.css"
 
 const Buttonfade = ({text, secondText}) => {
   return (
-    <button className="shadow buttonfadefill border">
+    <button className="buttonfadefill border border-danger">
       <div>
         <span>
           <p>{text}</p>
