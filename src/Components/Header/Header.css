@@ -30,21 +30,12 @@ header .header-font {
   font-family: "Lobster";
   font-weight: bold;
   font-style: italic;
-  font-size: 3.75rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: start;
 }
 header .desc-font {
   align-self: flex-start;
-  width: 90%;
   font-size: 1.125rem;
-}
-@media (max-width: 576px) {
-  .h1-font {
-    text-wrap: nowrap;
-  }
 }
 
 header .burgerbg {
@@ -75,14 +66,6 @@ header .banner {
   height: 75vh;
   }
 }
-@media (max-width: 600px) {
-  header .banner {
-    display: none;
-  } 
-  header .burgerbg {
-    display: none;
-  }
-}
 header .banner .burger {
   position: relative;
   background: url(../../Assets/burger.png) center no-repeat;
@@ -93,6 +76,16 @@ header .banner .burger {
   justify-content: end;
   animation: burgerAnim 12s ease both infinite;
 }
+
+header .container .burger-sm {
+  position: relative;
+  background: url(../../Assets/burger.png) center no-repeat;
+  background-size: 100%;
+  width: 75%;
+  height: 50vh;
+  animation: burgerAnim 12s ease both infinite;
+}
+
 @keyframes burgerAnim {
   from, 33.2%, 66.4%, to {
     top: 10px;
@@ -114,6 +107,16 @@ header .banner .burger .crown {
   background-size: 100%;
   width: 82.5%;
   height: 75%;
+}
+@media (max-width: 1250px) {
+  header .banner .burger .crown {
+    top: 0;
+  }
+}
+@media (max-width: 700px) {
+  header .banner .burger .crown {
+    top: 5.5%;
+  }
 }
 header .banner .burger .discount {
   position: absolute;
