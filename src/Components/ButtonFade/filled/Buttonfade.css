@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 140px;
-    height: 50px;
     border-radius: 0.35rem !important;
     box-shadow: 0 0.5rem 1rem rgba(170, 0, 0, 0.15);
     overflow: hidden;
@@ -25,8 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    padding: 0.75em 1.125em;
+    /* padding: 0.75em 1.125em; */
    }
    
    .buttonfadefill div:nth-child(1) {
@@ -37,12 +34,7 @@
     background-color: #e10d1e;
    }
    
-   .buttonfadefill:hover div {
-    transform: translateY(-50px);
-   }
-   
    .buttonfadefill p {
-    font-size: 16px;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 4px;

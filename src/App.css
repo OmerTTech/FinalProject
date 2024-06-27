@@ -7,3 +7,44 @@
 a {
   text-decoration: none !important; 
 }
+::selection {
+  background: #EE2737;
+  color: white;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./Assets/Fonts/LobsterTwo-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./Assets/Fonts/LobsterTwo-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./Assets/Fonts/LobsterTwo-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./Assets/Fonts/LobsterTwo-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-font {
+  font-family: "Lobster";
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+}
+

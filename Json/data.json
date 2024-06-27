@@ -79,6 +79,42 @@
       "price": 7.49,
       "category": "Salad",
       "image": "https://i.imgur.com/kCS7X2v.png"
+    },
+    {
+      "id": 11,
+      "name": "Pizza",
+      "description": "Mediterranean, Mixed, Margarita, Sausage.",
+      "price": 55.00,
+      "category": "Pizza",
+      "image": "https://swigo.dexignzone.com/xhtml/assets/images/gallery/small/pic1.jpg",
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "Rice",
+      "description": "Curry fried rice. Fried rice with delicious curry sauce.",
+      "price": 50.00,
+      "category": "Rice",
+      "image": "https://swigo.dexignzone.com/xhtml/assets/images/gallery/small/pic2.jpg",
+      "featured": true
+    },
+    {
+      "id": 13,
+      "name": "Green Salad",
+      "description": "A refreshing Caesar salad made with fresh lettuce, croutons and Caesar dressing.",
+      "price": 45.00,
+      "category": "Salad",
+      "image": "https://swigo.dexignzone.com/xhtml/assets/images/gallery/small/pic3.jpg",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "name": "Pasta",
+      "description": "A classic pasta dish with delicious sauce and fresh herbs",
+      "price": 35.00,
+      "category": "Pasta",
+      "image": "https://swigo.dexignzone.com/xhtml/assets/images/gallery/small/pic4.jpg",
+      "featured": true
     }
   ],
   
